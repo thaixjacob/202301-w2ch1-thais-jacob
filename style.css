@@ -88,3 +88,36 @@ body {
   align-items: center;
   gap: 16px;
 }
+
+@media (min-width: 1440px) {
+  .fragance__card {
+    display: flex;
+    width: 40%;
+    height: 478px;
+    transform: translate(-50%, 40%);
+  }
+  .fragance__card-image {
+    width: 50%;
+  }
+  .fragance__card-image img {
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+  }
+
+  .fragance__card-information {
+    width: 50%;
+  }
+
+  .fragance__card-description-header {
+    gap: 16px;
+  }
+
+  .fragance__card-description {
+    gap: 32px;
+  }
+
+  .fragance__card-shopping-button {
+    width: 79%;
+    margin-top: 16px;
+  }
+}
