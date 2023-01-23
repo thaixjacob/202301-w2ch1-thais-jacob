@@ -1,0 +1,15 @@
+{
+  "name": "202301-w2ch1-thais-jacob",
+  "version": "1.0.0",
+  "description": "First challenge of the second week",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "author": "Thais Jacob",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
