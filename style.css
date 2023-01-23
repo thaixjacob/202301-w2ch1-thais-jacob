@@ -1,0 +1,123 @@
+body {
+  background-color: #f3ebe4;
+
+  position: relative;
+}
+
+.fragance__card {
+  background-color: white;
+  width: 90%;
+  text-align: left;
+  border-radius: 16px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, 14%);
+}
+
+.fragance__card-image img {
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+.fragance__card-description h4 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2rem;
+  color: #898989;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.fragance__card-description h3 {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  color: #222425;
+}
+
+.fragance__card-description > p {
+  font-family: "Montserrat", sans-serif;
+  color: #898989;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.fragance__card-price h2 {
+  font-family: "Fraunces", serif;
+  font-size: 2.2rem;
+  color: #3d8168;
+}
+
+.fragance__card-price p {
+  font-family: "Montserrat", sans-serif;
+  color: #898989;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.fragance__card-shopping-button {
+  background-color: #3d8168;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0 32px 32px 32px;
+  margin-top: 16px;
+  width: 82%;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.fragance__card-description {
+  padding: 32px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.fragance__card-description-header {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.fragance__card-price {
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (min-width: 1440px) {
+  .fragance__card {
+    display: flex;
+    width: 40%;
+    height: 478px;
+    transform: translate(-50%, 40%);
+  }
+  .fragance__card-image {
+    width: 50%;
+  }
+  .fragance__card-image img {
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+  }
+
+  .fragance__card-information {
+    width: 50%;
+  }
+
+  .fragance__card-description-header {
+    gap: 16px;
+  }
+
+  .fragance__card-description {
+    gap: 32px;
+  }
+
+  .fragance__card-shopping-button {
+    width: 79%;
+    margin-top: 16px;
+  }
+}
